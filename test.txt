@@ -1,0 +1,79 @@
+	org 17
+	LDA A
+	ADD B
+	STA SUM
+	LDA C
+	CMA
+	STA C
+	ISZ C	
+	LDA DIF
+	ADD C
+	STA DIF
+	HLT
+A,	DEC 5
+B,	DEC 4
+C,	DEC 10
+SUM,	HEX 0
+DIF,	DEC 100
+	END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
